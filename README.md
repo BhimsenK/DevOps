@@ -68,6 +68,8 @@ This command will generate an Ubuntu image in Docker Desktop.
 C:\Users\Admin>docker run -it mailhog/mailhog
 
 output :
+
+```
 Unable to find image 'mailhog/mailhog:latest' locally
 latest: Pulling from mailhog/mailhog
 df20fa9351a1: Download complete
@@ -86,7 +88,7 @@ Status: Downloaded newer image for mailhog/mailhog:latest
 Creating API v1 with WebPath:
 Creating API v2 with WebPath:
 [APIv1] KEEPALIVE /api/v1/events
-
+```
 
 
 
