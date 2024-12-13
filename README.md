@@ -43,7 +43,7 @@ Status: Downloaded newer image for ubuntu:latest
 
 This command will generate an Ubuntu image in Docker Desktop.
 
-
+---
 
 # Docker Commands
 
@@ -91,9 +91,79 @@ Creating API v2 with WebPath:
 ```
 
 
-
+```
 Output shows mailhog/mailhog running on port 1025.
 However, accessing localhost:1025 may show an error because the port is not mapped to the local machine.
+```
+
+# Solution: Map App Port to Localhost
+
+*Command:
+```
+docker run -it -p {YOUR_PORT}:{APP_PORT} file_name
+
+Example:
+docker run -it -p 6000:9000 xyz/mynodeapp
+```
+
+
+here, 6000 is our port on which we are mapping 9000 port.
+
+# Validation:
+```
+Open in Browser: localhost:6000
+Use Postman: localhost:6000
+Note: The container must be in a running state.
+```
+
+---
+
+
+## Building a Docker Image
+
+# Folder Structure:
+
+```
+DOCKER_PROJECT/
+├── Dockerfile
+├── main.py
+
+```
+
+# Dockerfile:
+```
+FROM python:3.8
+
+ADD main.py .
+
+RUN pip install datetime
+
+CMD [ "python", "./main.py"]
+
+```
+Note : the CMD contains should be in double quotes only. Will face issue otherwise.
+
+
+# main.py
+
+```
+from datetime import datetime
+
+print(f'Current date & time: {datetime.now()}')
+
+```
+---
+
+## Building the Docker Image:
+
+Open a terminal in the project directory (e.g., VS Code).
+Run the following command :
+
+```
+docker build -t python_date .
+```
+
+* This creates a Docker image named python_date.
 
 
 
