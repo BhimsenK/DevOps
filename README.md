@@ -67,7 +67,31 @@ This command will generate an Ubuntu image in Docker Desktop.
 
 C:\Users\Admin>docker run -it mailhog/mailhog
 
+output :
+Unable to find image 'mailhog/mailhog:latest' locally
+latest: Pulling from mailhog/mailhog
+df20fa9351a1: Download complete
+ed8968b2872e: Download complete
+f17c8f1adafb: Download complete
+368ee3bc1dbb: Download complete
+03954754c53a: Download complete
+a92cc7c5fd73: Download complete
+60493946972a: Download complete
+Digest: sha256:8d76a3d4ffa32a3661311944007a415332c4bb855657f4f6c57996405c009bea
+Status: Downloaded newer image for mailhog/mailhog:latest
+2024/12/12 14:58:57 Using in-memory storage
+[HTTP] Binding to address: 0.0.0.0:8025
+2024/12/12 14:58:57 Serving under http://0.0.0.0:8025/
+2024/12/12 14:58:57 [SMTP] Binding to address: 0.0.0.0:1025
+Creating API v1 with WebPath:
+Creating API v2 with WebPath:
+[APIv1] KEEPALIVE /api/v1/events
 
+
+
+
+Output shows mailhog/mailhog running on port 1025.
+However, accessing localhost:1025 may show an error because the port is not mapped to the local machine.
 
 
 
