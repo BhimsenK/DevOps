@@ -126,6 +126,11 @@ for AWS, you should know the basics of:
 1. [Docker in One Shot](https://youtu.be/31k6AtW-b3Y?si=jmZW4xfYp2C3zhs-)  
 2. [Complete Docker Course](https://youtu.be/q5S14cfOWfE?si=GxcgJL-rEqsT1vaD)
 
+IMP : 
+	* [Creation of Dockerfile](https://youtu.be/1ymi24PeF3M?si=AYwOseaIvl7sv_QZ)
+	* [Containarization of an Application](https://www.youtube.com/watch?v=rqEcheJgquA&t=0s)
+	  [Refer :](https://www.youtube.com/watch?v=rqEcheJgquA)
+
 ---
 
 ## 9. Container Orchestration (Kubernetes)  
