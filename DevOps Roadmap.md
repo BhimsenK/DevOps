@@ -136,7 +136,7 @@ IMP :
 ## 9. Container Orchestration (Kubernetes)  
 ### YouTube Links:  
 1. [Kubernetes for DevOps Engineers](https://youtu.be/FqfoDUhzyDo?si=MU3wwHLClNEjc-RT)  
-2. [Deploy a Redit Clone with Kubernetes Ingress for DevOps Engineer Resume (Hindi)]([https://youtu.be/h-ul8l5ekPg?si=ifBCFcyZGl2Hq_ks](https://youtu.be/9tl0A_rwgu4?si=_J_NBa8hYxTtDP08))
+2. [Deploy a Redit Clone with Kubernetes Ingress for DevOps Engineer Resume Hindi]([https://youtu.be/h-ul8l5ekPg?si=ifBCFcyZGl2Hq_ks](https://youtu.be/9tl0A_rwgu4?si=_J_NBa8hYxTtDP08))
 3. [Deploying MERN stack Application on Kubernetes using Kubeadm](https://youtu.be/h-ul8l5ekPg?si=ifBCFcyZGl2Hq_ks)
 4. [Live DevOps Project on Kubernetes With ArgoCD For Freshers to Experienced (Hindi)](https://youtu.be/Kbvch_swZWA?si=2jHmR7fteK1DdAgY)
 
