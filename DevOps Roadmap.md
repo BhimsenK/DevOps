@@ -118,42 +118,41 @@ for AWS, you should know the basics of:
 2. [Terraform Zero to Hero : HIndi : 2:59;26 Hrs](https://www.youtube.com/live/ITHB4JzviWQ?si=irNZsCtpkjT4JzhI)  
 
 ### Configuring with Ansible:  
-1. [Ansible Playbooks in Action : Hindi : 2:06:13](https://www.youtube.com/live/yyU2UiNI08M?si=2PdlB_PixgegvAWc)  
-2. [Ansible Tutorial](https://youtu.be/4GwafiGsTUM?si=_fz0LND_39bVsUJF)
+1. [Ansible Playbooks in Action : Hindi : 2:06:13 Hrs](https://www.youtube.com/live/yyU2UiNI08M?si=2PdlB_PixgegvAWc)  
+2. [Ansible Tutorial : Hindi : 2:05:23 Hrs](https://youtu.be/4GwafiGsTUM?si=_fz0LND_39bVsUJF)
 
 ---
 
 ## 8. Microservices and Containerization 📦  
 ### Docker:  
-1. [Docker in One Shot](https://youtu.be/31k6AtW-b3Y?si=jmZW4xfYp2C3zhs-)  
-2. [Complete Docker Course](https://youtu.be/q5S14cfOWfE?si=GxcgJL-rEqsT1vaD)
+1. [Docker in One Shot : Hindi : 1:11:41 Hrs](https://youtu.be/31k6AtW-b3Y?si=jmZW4xfYp2C3zhs-)  
+2. [Complete Docker Course : English : 30::13 Min](https://youtu.be/q5S14cfOWfE?si=GxcgJL-rEqsT1vaD)
 
 IMP : 
-	* [Creation of Dockerfile](https://youtu.be/1ymi24PeF3M?si=AYwOseaIvl7sv_QZ)
-	* [Containarization of an Application](https://www.youtube.com/watch?v=rqEcheJgquA&t=0s)
-	  [Refer :](https://www.youtube.com/watch?v=rqEcheJgquA)
+- [Creation of Dockerfile : English : 25:52 Min](https://youtu.be/1ymi24PeF3M?si=AYwOseaIvl7sv_QZ)
+- [Containarization of an Application : English : 9:44 Min](https://www.youtube.com/watch?v=rqEcheJgquA&t=0s)
 
 ---
 
 ## 9. Container Orchestration (Kubernetes)  
 ### YouTube Links:  
-1. [Kubernetes for DevOps Engineers](https://youtu.be/FqfoDUhzyDo?si=MU3wwHLClNEjc-RT)  
-2. [Deploy a Redit Clone with Kubernetes Ingress for DevOps  Resume Hindi](https://youtu.be/9tl0A_rwgu4?si=_J_NBa8hYxTtDP08)
-3. [Deploying MERN stack Application on Kubernetes using Kubeadm](https://youtu.be/h-ul8l5ekPg?si=ifBCFcyZGl2Hq_ks)
-4. [Live DevOps Project on Kubernetes With ArgoCD For Freshers to Experienced (Hindi)](https://youtu.be/Kbvch_swZWA?si=2jHmR7fteK1DdAgY)
+1. [Kubernetes for DevOps Engineers : Hindi : 19:00 Min](https://youtu.be/FqfoDUhzyDo?si=MU3wwHLClNEjc-RT)  
+2. [Deploy a Redit Clone with Kubernetes Ingress for DevOps  Resume Hindi : 29:01 Min](https://youtu.be/9tl0A_rwgu4?si=_J_NBa8hYxTtDP08)
+3. [Deploying MERN stack Application on Kubernetes using Kubeadm : Hindi : 2:00:15 Hrs](https://youtu.be/h-ul8l5ekPg?si=ifBCFcyZGl2Hq_ks)
+4. [Live DevOps Project on Kubernetes With ArgoCD For Freshers to Experienced (Hindi) : 41:58 Min](https://youtu.be/Kbvch_swZWA?si=2jHmR7fteK1DdAgY)
 
 ---
 
 ## 10. CI/CD Pipelines  
 ### Jenkins:  
-1. [Jenkins in One Shot](https://youtu.be/XaSdKR2fOU4?si=3k8SeBxyWMSDK8mx)  
-2. [Live DevOps Project for Resume - Jenkins CICD with GitHub Integration](https://www.youtube.com/live/nplH3BzKHPk?si=dLEkCvGSdwR67UJN)
-3. [Deploying DevOps Live Project using Jenkins CI/CD Pipeline with GitHub integration 🔥 (Hindi)](https://youtu.be/rcZoPygiI8o?si=FDD3krzehMiD57TC)
+1. [Jenkins in One Shot : Hindi : 6:23:22 Hrs](https://youtu.be/XaSdKR2fOU4?si=3k8SeBxyWMSDK8mx)  
+2. [Live DevOps Project for Resume - Jenkins CICD with GitHub Integration : Hindi : 1:46:59 Hrs](https://www.youtube.com/live/nplH3BzKHPk?si=dLEkCvGSdwR67UJN)
+3. [Deploying DevOps Live Project using Jenkins CI/CD Pipeline with GitHub integration 🔥 (Hindi) : 19:40 Min](https://youtu.be/rcZoPygiI8o?si=FDD3krzehMiD57TC)
 
 ---
 
 ## 11. Monitoring and Logging  
 ### Grafana:  
-1. [Easy Grafana Tutorial for DevOps Engineers with Project (Hindi)](https://youtu.be/QwGm5m4AxNA?si=AGaJ-kLVhOeh13ZE)  
-2. [Easiest Prometheus & Grafana Tutorial For DevOps on Kubernetes | Observability in Hindi](https://youtu.be/DXZUunEeHqM?si=2Jpse2hT5O6IgEpZ)
-3. [Grafana For Beginners in Hindi - Grafana crash course for beginners](https://youtu.be/CMvOekuOvSo?si=NOOi2SCX_1oYEgnK)
+1. [Easy Grafana Tutorial for DevOps Engineers with Project (Hindi) : 32:22 Min](https://youtu.be/QwGm5m4AxNA?si=AGaJ-kLVhOeh13ZE)  
+2. [Easiest Prometheus & Grafana Tutorial For DevOps on Kubernetes | Observability in Hindi : 40:13 Min](https://youtu.be/DXZUunEeHqM?si=2Jpse2hT5O6IgEpZ)
+3. [Grafana For Beginners in Hindi - Grafana crash course for beginners : Hindi : 1:44:27 Hrs](https://youtu.be/CMvOekuOvSo?si=NOOi2SCX_1oYEgnK)
