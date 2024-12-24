@@ -7,7 +7,7 @@
 
 ## 1. SDLC Life Cycle  
 ### YouTube Video Links:  
-1. [Video 1](https://youtu.be/SbHI2b5y0Bw?si=0X9OwFfO5T_1SmuO)  
+1. [SDLC Life Cycle Tutorial For Beginners : Hindi : 9:31](https://youtu.be/SbHI2b5y0Bw?si=0X9OwFfO5T_1SmuO)  
 2. [Video 2](https://youtu.be/kSU2MPeptpM?si=F_SLPNxOuWDKfL5i)  
 3. [Video 3](https://youtu.be/pnXrzfIxy6Q?si=luLNQv7p2T0_xNd6)  
 4. [Video 4](https://youtu.be/fnvXFQprVFg?si=ZUF77sMGi1SrSpvC)  
