@@ -145,11 +145,13 @@ IMP :
 ## 10. CI/CD Pipelines  
 ### Jenkins:  
 1. [Jenkins in One Shot](https://youtu.be/XaSdKR2fOU4?si=3k8SeBxyWMSDK8mx)  
-2. [Jenkins Live Project](https://www.youtube.com/live/nplH3BzKHPk?si=dLEkCvGSdwR67UJN)
+2. [Live DevOps Project for Resume - Jenkins CICD with GitHub Integration](https://www.youtube.com/live/nplH3BzKHPk?si=dLEkCvGSdwR67UJN)
+3. [Deploying DevOps Live Project using Jenkins CI/CD Pipeline with GitHub integration 🔥 (Hindi)](https://youtu.be/rcZoPygiI8o?si=FDD3krzehMiD57TC)
 
 ---
 
 ## 11. Monitoring and Logging  
 ### Grafana:  
-1. [Grafana Tutorial](https://youtu.be/QwGm5m4AxNA?si=AGaJ-kLVhOeh13ZE)  
-2. [Prometheus & Grafana for Kubernetes](https://youtu.be/DXZUunEeHqM?si=2Jpse2hT5...)
+1. [Easy Grafana Tutorial for DevOps Engineers with Project (Hindi)](https://youtu.be/QwGm5m4AxNA?si=AGaJ-kLVhOeh13ZE)  
+2. [Easiest Prometheus & Grafana Tutorial For DevOps on Kubernetes | Observability in Hindi](https://youtu.be/DXZUunEeHqM?si=2Jpse2hT5O6IgEpZ)
+3. [Grafana For Beginners in Hindi - Grafana crash course for beginners](https://youtu.be/CMvOekuOvSo?si=NOOi2SCX_1oYEgnK)
