@@ -76,15 +76,37 @@
 
 ---
 
-## 6. Learn Any One Cloud  
-### AWS Basics for DevOps Engineers:  
-1. **VPC (Virtual Private Cloud):**  
-   - [AWS VPC & VPC Peering Project](https://www.youtube.com/watch?v=UVNVPquIkXE&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-&index=6)  
-   - [Setup VPC, Subnet, and Routing](https://www.youtube.com/watch?v=43tIX7901Gs)  
-2. **S3 (Simple Storage Service):**  
-   - [AWS S3 Full Course](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8)  
-3. **IAM (Identity and Access Management):**  
-   - [AWS CodeCommit & CodeBuild Project](https://www.youtube.com/watch?v=p5i3cMCQ760)
+# 6. Learn any one Cloud 
+
+What should you know as a DevOps Engineer:  
+for AWS, you should know the basics of:  
+
+1. **VPC (Virtual Private Cloud):** Create isolated networks.  
+   i. [AWS VPC & VPC Peering Project for DevOps & Cloud Engineers (hindi)](https://www.youtube.com/watch?v=UVNVPquIkXE&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-&index=6)  
+
+   ii. [AWS how to setup VPC, Public, Private Subnet, NAT, Internet Gateway, Route Table? - (Part-5)](https://www.youtube.com/watch?v=43tIX7901Gs)  
+-----------------------------  
+2. **EC2 (Elastic Compute Cloud):** Manage virtual servers.  
+3. **S3 (Simple Storage Service):** Scalable object storage.  
+   i. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS - Part 22](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
+
+   ### For S3 & EC2:  
+   i. [AWS CodeDeploy with CodePipeline // Complete CICD Project for DevOps Engineers (Hindi)](https://youtu.be/IUF-pfbYGvg?si=zQe9C0n7MYDC9jBQ)  
+4. **RDS (Relational Database Service):** Managed databases.  
+   i. [DevOps Live Project: AWS RDS Cluster With Secured VPC || Secured & Optimized RDS Cluster](https://youtu.be/vQl346fRJIE?si=yKD0hkYhyY-HmkOf)  
+----------------------  
+5. **IAM (Identity and Access Management):** Secure access control.  
+   i. [Add this AWS DevOps Project to your Resume | AWS CodeCommit | CodeBuild (Hindi)](https://www.youtube.com/watch?v=p5i3cMCQ760)  
+----------------------  
+6. **Lambda:** Serverless code execution. (2 weeks)  
+   i. [Learning AWS Lambda | Live Project | Part I](https://www.youtube.com/watch?v=ad7-GkgxP-8&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-)  
+
+   ii. [Deploying Serverless Web Application on AWS: S3, API Gateway, Lambda, DynamoDB, and CloudFront](https://youtu.be/pK52mfm69i0?si=OZiCtpbtty5oPlI_)  
+------------------------------  
+7. **Route 53:** Scalable DNS service.  
+   i. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS - Part 22](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
+8. **CloudWatch:** Monitoring and observability.  
+9. **EKS (Elastic Kubernetes Service):** Managed Kubernetes service for container orchestration  
 
 ---
 
