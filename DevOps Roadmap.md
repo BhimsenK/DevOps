@@ -114,11 +114,11 @@ for AWS, you should know the basics of:
 
 ## 7. Infrastructure as Code 📃  
 ### Provisioning with Terraform:  
-1. [Terraform Multi-Environment AWS Infrastructure](https://www.youtube.com/watch?v=NoKeG8iRnQw&t=3720s)  
-2. [Terraform Zero to Hero](https://www.youtube.com/live/ITHB4JzviWQ?si=irNZsCtpkjT4JzhI)  
+1. [Terraform Multi-Environment AWS Infrastructure : Hindi : 1:21;07 Hrs](https://www.youtube.com/watch?v=NoKeG8iRnQw&t=3720s)  
+2. [Terraform Zero to Hero : HIndi : 2:59;26 Hrs](https://www.youtube.com/live/ITHB4JzviWQ?si=irNZsCtpkjT4JzhI)  
 
 ### Configuring with Ansible:  
-1. [Ansible Playbooks in Action](https://www.youtube.com/live/yyU2UiNI08M?si=2PdlB_PixgegvAWc)  
+1. [Ansible Playbooks in Action : Hindi : 2:06:13](https://www.youtube.com/live/yyU2UiNI08M?si=2PdlB_PixgegvAWc)  
 2. [Ansible Tutorial](https://youtu.be/4GwafiGsTUM?si=_fz0LND_39bVsUJF)
 
 ---
