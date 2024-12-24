@@ -10,16 +10,16 @@
 1. [SDLC Life Cycle Tutorial For Beginners : Hindi : 09:31 Min](https://youtu.be/SbHI2b5y0Bw?si=0X9OwFfO5T_1SmuO)  
 2. [SDLC Life Cycle for Beginners | with Real life example : Hindi : 12:02 Min](https://youtu.be/kSU2MPeptpM?si=F_SLPNxOuWDKfL5i)  
 3. [SDLC in Hindi Explained In 7 Minutes : Hindi : 09:22 Min](https://youtu.be/pnXrzfIxy6Q?si=luLNQv7p2T0_xNd6)  
-4. [SDLC Tutorials | Mr.Subba Raju : English : 12:11](https://youtu.be/fnvXFQprVFg?si=ZUF77sMGi1SrSpvC)  
+4. [SDLC Tutorials | Mr.Subba Raju : English : 12:11 Min](https://youtu.be/fnvXFQprVFg?si=ZUF77sMGi1SrSpvC)  
 5. [[TCS] SDLC Life Cycle Tutorial For Beginners : English : 37:22](https://youtu.be/sAJ2i5QFwGE?si=2-Qluk_RJRP7W3x9)
 
 ---
 
 ## 2. Operating System (Linux🐧)
 ### YouTube Video Links:  
-- [Playlist](https://youtu.be/39oyFIStuaI?si=77GIvrQIg_CrBEzP)  
-- [Linux Basics](https://www.youtube.com/watch?v=lCq4mYQL0WY)  
-- [Video 3](https://youtu.be/e01GGTKmtpc?si=DNdlQvEL53AI98gP)  
+- [Learn Linux for DevOps Engineers in 20 Minutes on AWS (Hindi Part - 1) ](https://youtu.be/39oyFIStuaI?si=77GIvrQIg_CrBEzP)  
+- [Linux commands for Cloud and Devops engineers : Hindi : 57:18 Min](https://www.youtube.com/watch?v=lCq4mYQL0WY)  
+- [Linux For DevOps In One Shot | Complete Beginners to Advanced Linux (Hindi) : 5:45;00 hr](https://youtu.be/e01GGTKmtpc?si=DNdlQvEL53AI98gP)  
 - [Project](https://youtu.be/6jh81K7lyWs?si=28o1zSjPY7gdpLZ4)  
 
 ### Things You Can Do to Practice Linux:  
