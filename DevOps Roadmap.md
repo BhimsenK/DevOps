@@ -7,11 +7,11 @@
 
 ## 1. SDLC Life Cycle  
 ### YouTube Video Links:  
-1. [SDLC Life Cycle Tutorial For Beginners : Hindi : 9:31](https://youtu.be/SbHI2b5y0Bw?si=0X9OwFfO5T_1SmuO)  
-2. [Video 2](https://youtu.be/kSU2MPeptpM?si=F_SLPNxOuWDKfL5i)  
-3. [Video 3](https://youtu.be/pnXrzfIxy6Q?si=luLNQv7p2T0_xNd6)  
-4. [Video 4](https://youtu.be/fnvXFQprVFg?si=ZUF77sMGi1SrSpvC)  
-5. [Video 5](https://youtu.be/sAJ2i5QFwGE?si=2-Qluk_RJRP7W3x9)
+1. [SDLC Life Cycle Tutorial For Beginners : Hindi : 09:31 Min](https://youtu.be/SbHI2b5y0Bw?si=0X9OwFfO5T_1SmuO)  
+2. [SDLC Life Cycle for Beginners | with Real life example : Hindi : 12:02 Min](https://youtu.be/kSU2MPeptpM?si=F_SLPNxOuWDKfL5i)  
+3. [SDLC in Hindi Explained In 7 Minutes : Hindi : 09:22 Min](https://youtu.be/pnXrzfIxy6Q?si=luLNQv7p2T0_xNd6)  
+4. [SDLC Tutorials | Mr.Subba Raju : English : 12:11](https://youtu.be/fnvXFQprVFg?si=ZUF77sMGi1SrSpvC)  
+5. [[TCS] SDLC Life Cycle Tutorial For Beginners : English : 37:22](https://youtu.be/sAJ2i5QFwGE?si=2-Qluk_RJRP7W3x9)
 
 ---
 
