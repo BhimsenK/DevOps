@@ -19,7 +19,8 @@
 
 ## 2. Operating System (Linux🐧)
 ### YouTube Video Links:  
-- [Learn Linux for DevOps Engineers in 20 Minutes on AWS (Hindi Part - 1) ](https://youtu.be/39oyFIStuaI?si=77GIvrQIg_CrBEzP)  
+- [Learn Linux for DevOps Engineers in 20 Minutes on AWS (Hindi Part - 1) ](https://youtu.be/39oyFIStuaI?si=77GIvrQIg_CrBEzP)
+- [Linux Playlist](https://www.youtube.com/watch?v=39oyFIStuaI&list=PLlfy9GnSVerQr-Se9JRE_tZJk3OUoHCkh)
 - [Linux commands for Cloud and Devops engineers : Hindi : 57:18 Min](https://www.youtube.com/watch?v=lCq4mYQL0WY)  
 - [Linux For DevOps In One Shot | Complete Beginners to Advanced Linux (Hindi) : 5:45;00 hr](https://youtu.be/e01GGTKmtpc?si=DNdlQvEL53AI98gP)  
 
