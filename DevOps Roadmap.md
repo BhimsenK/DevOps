@@ -90,9 +90,11 @@ for AWS, you should know the basics of:
    ii. [AWS how to setup VPC, Public, Private Subnet, NAT, Internet Gateway, Route Table? : English : 35:40 Min](https://www.youtube.com/watch?v=43tIX7901Gs)  
   
 2. **EC2 (Elastic Compute Cloud):** Manage virtual servers.  
-3. **S3 (Simple Storage Service):** Scalable object storage.
-   i.[AWS S3 Hands-on tutorial for Beginners | Hindi video on AWS S3 : 08:29 Min](https://youtu.be/DOxRhOh8x3k?si=hX1NbSLMkJv7F-59)
-   ii. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
+3. **S3 (Simple Storage Service):** Scalable object storage. 
+   
+   i.  [AWS S3 Hands-on tutorial for Beginners | Hindi video on AWS S3 : 08:29 Min](https://youtu.be/DOxRhOh8x3k?si=hX1NbSLMkJv7F-59)
+   ii. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)
+   
 
    ### For S3 & EC2:  
    i. [AWS CodeDeploy with CodePipeline // Complete CICD Project for DevOps Engineers (Hindi) : 35:56 Min](https://youtu.be/IUF-pfbYGvg?si=zQe9C0n7MYDC9jBQ)  
