@@ -105,14 +105,15 @@ for AWS, you should know the basics of:
    i. [Add this AWS DevOps Project to your Resume | AWS CodeCommit | CodeBuild (Hindi) : 29:07 Min](https://www.youtube.com/watch?v=p5i3cMCQ760)  
   
 8. **Lambda:** Serverless code execution. (2 weeks)  
-   i. [Learning AWS Lambda | Live Project | Hindi : 13:05 Min](https://www.youtube.com/watch?v=ad7-GkgxP-8&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-)  
+   - i. [Learning AWS Lambda | Live Project | Hindi : 13:05 Min](https://www.youtube.com/watch?v=ad7-GkgxP-8&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-)
+   - ii. [Learning AWS API Gateway | Live Project | Part II : 07:45 Min](https://youtu.be/0GkOyj0bh0g?si=RLpvi4k3o8RxHA9l)
 
    ii. [Deploying Serverless Web Application on AWS: S3, API Gateway, Lambda, DynamoDB, and CloudFront : English : 32:20](https://youtu.be/pK52mfm69i0?si=OZiCtpbtty5oPlI_)  
   
-9. **Route 53:** Scalable DNS service.  
+10. **Route 53:** Scalable DNS service.  
    i. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
-10. **CloudWatch:** Monitoring and observability.  
-11. **EKS (Elastic Kubernetes Service):** Managed Kubernetes service for container orchestration  
+11. **CloudWatch:** Monitoring and observability.  
+12. **EKS (Elastic Kubernetes Service):** Managed Kubernetes service for container orchestration  
 
 ---
 
