@@ -90,26 +90,27 @@ for AWS, you should know the basics of:
    ii. [AWS how to setup VPC, Public, Private Subnet, NAT, Internet Gateway, Route Table? : English : 35:40 Min](https://www.youtube.com/watch?v=43tIX7901Gs)  
   
 2. **EC2 (Elastic Compute Cloud):** Manage virtual servers.  
-3. **S3 (Simple Storage Service):** Scalable object storage.  
-   i. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
+3. **S3 (Simple Storage Service):** Scalable object storage.
+   i.[AWS S3 Hands-on tutorial for Beginners | Hindi video on AWS S3 : 08:29 Min](https://youtu.be/DOxRhOh8x3k?si=hX1NbSLMkJv7F-59)
+   ii. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
 
    ### For S3 & EC2:  
    i. [AWS CodeDeploy with CodePipeline // Complete CICD Project for DevOps Engineers (Hindi) : 35:56 Min](https://youtu.be/IUF-pfbYGvg?si=zQe9C0n7MYDC9jBQ)  
-4. **RDS (Relational Database Service):** Managed databases.  
+5. **RDS (Relational Database Service):** Managed databases.  
    i. [DevOps Live Project: AWS RDS Cluster With Secured VPC || Secured & Optimized RDS Cluster : English : 1:34;27 Hrs](https://youtu.be/vQl346fRJIE?si=yKD0hkYhyY-HmkOf)  
   
-5. **IAM (Identity and Access Management):** Secure access control.  
+6. **IAM (Identity and Access Management):** Secure access control.  
    i. [Add this AWS DevOps Project to your Resume | AWS CodeCommit | CodeBuild (Hindi) : 29:07 Min](https://www.youtube.com/watch?v=p5i3cMCQ760)  
   
-6. **Lambda:** Serverless code execution. (2 weeks)  
+7. **Lambda:** Serverless code execution. (2 weeks)  
    i. [Learning AWS Lambda | Live Project | Hindi : 13:05 Min](https://www.youtube.com/watch?v=ad7-GkgxP-8&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-)  
 
    ii. [Deploying Serverless Web Application on AWS: S3, API Gateway, Lambda, DynamoDB, and CloudFront : English : 32:20](https://youtu.be/pK52mfm69i0?si=OZiCtpbtty5oPlI_)  
   
-7. **Route 53:** Scalable DNS service.  
+8. **Route 53:** Scalable DNS service.  
    i. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
-8. **CloudWatch:** Monitoring and observability.  
-9. **EKS (Elastic Kubernetes Service):** Managed Kubernetes service for container orchestration  
+9. **CloudWatch:** Monitoring and observability.  
+10. **EKS (Elastic Kubernetes Service):** Managed Kubernetes service for container orchestration  
 
 ---
 
