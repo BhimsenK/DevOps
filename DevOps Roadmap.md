@@ -85,14 +85,14 @@ What should you know as a DevOps Engineer:
 for AWS, you should know the basics of:  
 
 1. **VPC (Virtual Private Cloud):** Create isolated networks.  
-   i. [AWS VPC & VPC Peering Project for DevOps & Cloud Engineers (hindi) : 37:46 Min](https://www.youtube.com/watch?v=UVNVPquIkXE&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-&index=6)
-   ii. [AWS how to setup VPC, Public, Private Subnet, NAT, Internet Gateway, Route Table? : English : 35:40 Min](https://www.youtube.com/watch?v=43tIX7901Gs)  
+   - i. [AWS VPC & VPC Peering Project for DevOps & Cloud Engineers (hindi) : 37:46 Min](https://www.youtube.com/watch?v=UVNVPquIkXE&list=PLlfy9GnSVerTB0twnC5eaGD-oiHprpnW-&index=6)
+   - ii. [AWS how to setup VPC, Public, Private Subnet, NAT, Internet Gateway, Route Table? : English : 35:40 Min](https://www.youtube.com/watch?v=43tIX7901Gs)  
   
 3. **EC2 (Elastic Compute Cloud):** Manage virtual servers.  
 4. **S3 (Simple Storage Service):** Scalable object storage. 
    
-   i.  [AWS S3 Hands-on tutorial for Beginners | Hindi video on AWS S3 : 08:29 Min](https://youtu.be/DOxRhOh8x3k?si=hX1NbSLMkJv7F-59)
-   ii. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)
+   - i.  [AWS S3 Hands-on tutorial for Beginners | Hindi video on AWS S3 : 08:29 Min](https://youtu.be/DOxRhOh8x3k?si=hX1NbSLMkJv7F-59)
+   - ii. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)
    
 
    ### For S3 & EC2:  
