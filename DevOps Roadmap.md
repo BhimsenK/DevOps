@@ -130,6 +130,7 @@ for AWS, you should know the basics of:
 
 ## 8. Microservices and Containerization 📦  
 ### Docker:  
+1. [Docker In One Shot with 2 Live DevOps Projects (Hindi): 05:00:07 Hrs](https://youtu.be/9bSbNNH4Nqw?si=zM4pHp7Dc_qYKX8B)
 1. [Docker in One Shot : Hindi : 1:11:41 Hrs](https://youtu.be/31k6AtW-b3Y?si=jmZW4xfYp2C3zhs-)  
 2. [Complete Docker Course : English : 30::13 Min](https://youtu.be/q5S14cfOWfE?si=GxcgJL-rEqsT1vaD)
 
