@@ -1,0 +1,62 @@
+************************************************************************
+Git 1 : 
+************************************************************************
+*Complete Git and Github Hands On Tutorial with Commands : English : 31:23 Min
+--------------------------------------------
+What is Git ?
+Why Learning Git is important ?
+Different between Git & GitHum
+Git Commands : Installation-Creating Repo-Demo.
+************************************************************************
+
+
+************************************************************************
+Git 2 : 
+************************************************************************
+*Complete Git and GitHub Tutorial for Beginners : Hindi : 1:15;21 Hrs
+--------------------------------------------
+What is Git ?
+Whats GitHub ?
+GitHub Profile 
+Creating Repository
+Setting up Git :Git Bash
+Configuring Git
+Clone & Status
+Commands
+Git Branches
+Merging code
+push-pull commands
+Undoing changes
+Fork
+************************************************************************
+
+
+************************************************************************
+Git 3 : 
+************************************************************************
+*Complete git and Github course : Hindi : 2:54;55 Hrs
+--------------------------------------------
+
+Git Basics
+Git Terminologies-Commands
+Git Branches and conflicts
+Git diff, stash and tag
+Git rebase and reflog
+Pushing code to GitHub
+Open source contribution
+************************************************************************
+
+
+
+************************************************************************
+Git 3 : 
+************************************************************************
+*Git & GitHub for DevOps | Free Workshop By TrainWithShubham : Hindi : 3:36;25 Hrs
+--------------------------------------------
+Git & GitHub basics
+Commands
+PR merging, branching strategies for DevOps
+Hooks (pre-commit Hooks)
+Repo setup end to end (GitHub Actions CI/CD)
+
+************************************************************************
