@@ -1,0 +1,22 @@
+************************************************************************************
+Networking 1
+************************************************************************************
+
+Computer Networking For DevOps | Free Workshop By TrainWithShubham (Hindi): 3:20:49 Hrs
+------------------------------------------------------------------------------------
+1. Introduction to Networking Fundamentals
+2. OSI Model and TCP/IP Protocol Suite
+3. IP Addressing and Subnetting
+************************************************************************************
+
+
+************************************************************************************
+Networking 2
+************************************************************************************
+
+Computer Networking For DevOps | Free Workshop By TrainWithShubham (Hindi): 3:20:49 Hrs
+------------------------------------------------------------------------------------
+4. Networking Tools and Commands 
+5. Network Security Essentials
+6. Advanced Networking: Load Balancing and DNS
+************************************************************************************
