@@ -1,0 +1,165 @@
+AWS tips/ Playlist : https://www.youtube.com/watch?v=NaOQazAKr7g&list=PLlfy9GnSVerRj2fI0_P9_YFxhDGSFChU7&index=9 : Hindi
+
+
+************************************************************************************
+AWS 1 : VPC
+************************************************************************************
+
+*AWS VPC & VPC Peering Project for DevOps & Cloud Engineers (hindi): 37:46 Min
+------------------------------------------------------------------------------------
+Whats VPC ?
+Creating (Test VPC) VPC-Selecting Region-
+Creating EC2
+Creating Internet Gateway
+Creating Route Tables
+Creating Prod VPC and doing same as done for Test VPC.
+Creating connection between Test & Prod VPC's. 
+************************************************************************************
+
+
+************************************************************************************
+AWS 2 : S3
+************************************************************************************
+
+*AWS S3 Hands-on tutorial for Beginners | Hindi video on AWS S3 : 08:28 Min
+------------------------------------------------------------------------------------
+1. Introduction to Networking Fundamentals
+2. OSI Model and TCP/IP Protocol Suite
+3. IP Addressing and Subnetting
+
+
+*AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS - Part 22
+--------------------------------------------------------------------
+▬▬▬▬▬▬ 01:01 🚀 [Section 1: What is S3 Bucket?]
+▬▬▬▬▬▬ 14:24 🚀 [Section 2: S3 Availability]
+▬▬▬▬▬▬ 16:25 🚀 [Section 3: S3 Policies]
+▬▬▬▬▬▬ 18:00 🚀 [Section 4: S3 CLI Commands]
+************************************************************************************
+
+
+
+************************************************************************************
+AWS 3 : S3
+************************************************************************************
+
+*AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS - Part 22
+------------------------------------------------------------------------------------
+▬▬▬▬▬▬ 29:35 🚀 [Section 5: S3 Storage Classes]
+▬▬▬▬▬▬ 34:01 🚀 [Section 6: S3 Storage Calculator]
+▬▬▬▬▬▬ 40:39 🚀 [Section 7: S3 Requestor Pays]
+▬▬▬▬▬▬ 43:44 🚀 [Section 8: S3 Object Tagging]
+▬▬▬▬▬▬ 48:31 🚀 [Section 9: S3 Permission Policies]
+▬▬▬▬▬▬ 01:05:12 🚀 [Section 10: How to Secure Your S3 Buckets]
+▬▬▬▬▬▬ 01:25:04 🚀 [Section 11: S3 CloudFront Distribution]
+▬▬▬▬▬▬ 01:39:22 🚀 [Section 12: S3 and Route 53 for Static Website Hosting]
+
+
+*Python boto3 tutorial | AWS S3 + Python in 15 minutes follow along video : Hindi : 16:21 Min 
+URL : https://youtu.be/NaOQazAKr7g?si=OfnNVkISxVks-ZoJ
+------------------------------------------------------------------------------------
+Project.
+
+************************************************************************************
+
+
+************************************************************************************
+AWS 4 : EC2 & S3 Project
+************************************************************************************
+
+*AWS CodeDeploy with CodePipeline // Complete CICD Project for DevOps Engineers (Hindi) : 35:56 Min
+------------------------------------------------------------------------------------
+Chapters:
+00:00 Intro
+02:00 Intro to CodeDeploy
+05:15 Creating Deployment Group
+06:48 Setting up Agent for CodeDeploy
+11:15 Appspec file for CodeDeploy
+15:00 Creating the Deployment
+18:00 EC2 permissions for CodeDeploy
+20:30 Setting up CodePipeline
+24:55 General Motivation for you
+26:10 Troubleshooting Pipeline failure
+31:20 Final Continous Deployment 
+33:03 CICD Demo
+35:30 Outro
+************************************************************************************
+
+
+
+************************************************************************************
+AWS 5 : RDS
+************************************************************************************
+
+*AWS RDS Tutorial | Amazon Relational Database Service on AWS | Postgres : Hindi : 8:04 Min
+------------------------------------------------------------------------------------
+Complete understanding on RDS.
+************************************************************************************
+
+
+	
+************************************************************************************
+AWS 6 : IAM
+************************************************************************************
+*AWS IAM Hands-on Tutorial for Beginners | Hindi AWS IAM tutorial video : Hindi : 6:22 Min
+URL : https://youtu.be/ORB4eY8EydA?si=UJiGRsAcmF60AIyK
+------------------------------------------------------------------------------------
+Tutorial
+
+
+
+*Add this AWS DevOps Project to your Resume | AWS CodeCommit | CodeBuild (Hindi) : 29:07 Min
+------------------------------------------------------------------------------------
+00:00 Intro
+00:45 CI/CD Architecture on AWS
+05:00 AWS CodeCommit
+09:45 IAM Attach Policy
+12:45 Branching in AWS CodeCommit
+15:00 AWS Artifact
+15:20 Create Builds on AWS CodeBuild
+17:00 Buildspec in CodeBuild
+21:00 Phases in CodeBuild
+24:40 Artifacts in AWS
+28:20 Outro
+
+************************************************************************************
+
+
+
+************************************************************************************
+AWS 7 : Lambda
+************************************************************************************
+*Learning AWS Lambda | Live Project | Part I : Hindi : 13:05 Min
+------------------------------------------------------------------------------------
+Project
+
+
+*Learning AWS API Gateway | Live Project | Part II : Hindi : 7:45 Min
+------------------------------------------------------------------------------------
+Project
+************************************************************************************
+
+
+************************************************************************************
+AWS 8 : Route 53
+************************************************************************************
+* Learn AWS Route 53 from Scratch: A Beginner's Guide [HINDI] : 28:53
+------------------------------------------------------------------------------------
+
+Simple Guide
+
+************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
