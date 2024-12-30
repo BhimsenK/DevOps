@@ -111,7 +111,7 @@ for AWS, you should know the basics of:
    ii. [Deploying Serverless Web Application on AWS: S3, API Gateway, Lambda, DynamoDB, and CloudFront : English : 32:20](https://youtu.be/pK52mfm69i0?si=OZiCtpbtty5oPlI_)  
   
 10. **Route 53:** Scalable DNS service.  
-   i. [AWS S3 Full Course | From Beginner to Expert | Deploy Real-Time Projects on AWS : English : 2:01;21 Hrs](https://youtu.be/A2N9OIun9dU?si=RC0JW-MJ0-61Vhe8) (**Same 1**)  
+   i. [Learn AWS Route 53 from Scratch: A Beginner's Guide [HINDI] : 28:34 Min](https://youtu.be/csXEbgwH7Vs?si=dZ2ephVHoQS_D_tJ) 
 11. **CloudWatch:** Monitoring and observability.  
 12. **EKS (Elastic Kubernetes Service):** Managed Kubernetes service for container orchestration  
 
