@@ -1,0 +1,30 @@
+************************************************************************************
+Python 1
+************************************************************************************
+
+Python For DevOps | Free Workshop by TrainWithShubham : Hindi : 3:59;09 Hrs
+------------------------------------------------------------------------------------
+Calculator Program
+Conditionals program
+Loops Program
+Executing basic commands on System level
+Taking backup of files
+Using boto3 library for S3 buckets (AWS connection with Python)
+	- Creating AWS account
+	- Creating bucket
+	- Uploading backupfile in s3 bucket created.
+************************************************************************************
+
+
+
+************************************************************************************
+Python 2
+************************************************************************************
+Creating EC2 Instance using Python (Security group, key, VPC)
+	* Executing Terraform script through Python
+	- Fetching Terraform code from GitHub.
+ 	- Creating terra.py file.
+	- Creating EC2 instance through python.
+
+Flask Project  
+************************************************************************************
