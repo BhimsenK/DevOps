@@ -1,0 +1,77 @@
+************************************************************************************
+Terraform 1 : 
+************************************************************************************
+
+*I coded Terraform to Create Multi-Environment AWS Infrastructure in 1 Hour (Hindi)
+------------------------------------------------------------------------------------
+Why to learn Terraform ?
+Whats HCL ?
+Connecting AWS through Terraform.
+Creating user using IAM.
+Giving access to user.
+Creating Terraform block.
+Terraform Initialization in local machine.
+
+************************************************************************************
+
+
+************************************************************************************
+Terraform 2 : 
+************************************************************************************
+
+*I coded Terraform to Create Multi-Environment AWS Infrastructure in 1 Hour (Hindi)
+------------------------------------------------------------------------------------
+Creating S3 bucket 
+Creating EC2 Instance
+Creating  DynamoDB table.
+Creating Variables.
+Terraform Output
+Terraform Destroy
+
+Multi-Environment 
+Creating Templates
+Creating all the above tasks for multienvironment through Templates.
+
+************************************************************************************
+
+
+************************************************************************************
+Terraform 3 : 
+************************************************************************************
+
+*Terraform - Zero To Hero With DevOps (Batch 4)
+------------------------------------------------------------------------------------------------
+Whats Terraform?
+Difference between Terraform & Ansible.
+HCL
+Terraform Installation.
+
+************************************************************************************
+
+
+************************************************************************************
+Terraform 4 : 
+************************************************************************************
+
+*Terraform - Zero To Hero With DevOps (Batch 4)
+------------------------------------------------------------------------------------------------
+After Terraform Installation.
+************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
