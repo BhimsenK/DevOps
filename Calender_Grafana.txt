@@ -1,0 +1,86 @@
+************************************************************************************
+Grafana 1 : 
+************************************************************************************
+*Easy Grafana Tutorial for DevOps Engineers with Project (Hindi) : 32:22 Min
+----------------------------------------------------------------------
+00:00 Intro
+01:00 What is Observability
+02:30 Grafana, Loki, and Promtail Introduction
+05:40 Hands-on Monitoring and Visualization Project
+15:00 Loki Setup and connection
+22:00 Promtail setup and connection
+28:00 Grafana Project
+31:00 Outro
+************************************************************************************
+
+
+************************************************************************************
+Grafana 2 : 
+************************************************************************************
+
+*Grafana For Beginners in Hindi - Grafana crash course for beginners : Hindi : 1:44:27 Hrs
+----------------------------------------------------------------------
+Here is what you will learn in the course:
+📘 Grafana Introduction
+📘 Grafana Overview and Overall Architecture
+📘 Installing Grafana on a Linux erver
+📘 Installing Grafana on Windows
+📘 tarting, topping Grafana ervices on Windows
+📘 Installing Grafana on Docker
+📘 Creating Grafana Dashboards
+📘 Grafana User Interface Overview
+📘 Installing and Managing InfluxDB ervices
+📘 Installing and Managing Telegraf ervices
+📘 Grafana Dashboard - erver Health ummary Dashboard
+📘 Graph Panel - CPU & Memory Utilization
+📘 Graph Panel - Multiple ervers & Problem tatement to use Grafana Variables
+📘 Custom Variable - tatic Variable Values
+📘 Query Variable - Dynamic Variable Values
+📘 Dependent Varialbes - Cascaded Variables
+📘 Dependent Variables - Udemy.mp4
+📘 Automatic Repeat Panel Based on Variable Value
+📘 Organizing Panels and Dashboards for Easy Management
+📘 Repeat Row to Create Dynamic Grafana "ummary Dashboard"
+📘 Fixing Y Axis' Minimum and Maximum Value in Graph Panel
+📘 Creating Thresholds in Graph Visualizations
+📘 Python Program to Increase Memory Utilization for Testing Purpose
+📘 Creating Thresholds in Graph Visualization and tatsD Graphs
+📘 Advance Tabular Visualization With Gauge in one column
+📘 Advance tat Visualization in Grafana 7
+📘 Exploring More Visualization Properties - Legends, Axis, eries Override
+📘 Creating Grafana Dashboard Using MyQL As Data ource
+📘 Using Custom QL Query to Create Dashboard
+📘 Monitoring Websites and Docker ervices
+📘 Monitoring Websites or URL Using Grafana
+📘 Monitor Docker ervices
+📘 Installing Plugins
+📘 Installing Plugins and Creating Pie Chart Visualization
+📘 Creating Alerts and Annotation in Dashboards in Grafana
+📘 Grafana Email Alerts Configuration
+📘 Grafana and Telegram Integration and Alerts Configuration
+📘 Users and Roles Creation and Management in Grafana
+📘 User and Roles Creation in Grafana
+📘 Embedding Grafana Panel on Any Website
+📘 Embedding Grafana Panel in any HTML Page (Website)
+📘 Upgrading Grafana From Version 6 to Version 7 (Latest Version)
+📘 Optional - Upgrade Grafana From Version 6 to Version 7
+📘 Optional - Changing Grafana Database to MyQL
+
+************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
