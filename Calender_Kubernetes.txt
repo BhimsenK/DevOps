@@ -1,0 +1,67 @@
+************************************************************************************
+Kubernetes 1 : 
+************************************************************************************
+
+*Kubernetes for DevOps Engineers : Hindi : 19:00 Min
+------------------------------------------------------------------------
+Whats Kubernetes ?
+Why do we use Kubernetes ?
+Architecture ?
+Node Vs Pod 
+Setup
+************************************************************************************
+
+
+************************************************************************************
+Kubernetes 2 : 
+************************************************************************************
+
+*Deploy a Redit Clone with Kubernetes Ingress for DevOps Resume Hindi : 29:01 Min
+------------------------------------------------------------------------
+Should be 2 server/ Intances.
+Should have CI Server.
+Installing pre-requisites.
+ - Installing docker
+ - Giving permissions.
+ - Fetching code from github to CI server.
+ - Building the code.
+Dockerhub - Inshort
+Pushing build code into Dockerhub.
+Kubernetes
+ - Installing pre-requisites.
+
+************************************************************************************
+
+
+************************************************************************************
+Kubernetes 3 : 
+************************************************************************************
+
+*Deploying MERN stack Application on Kubernetes using Kubeadm : Hindi : 2:00:15 Hrs
+------------------------------------------------------------------------
+Creating cluster
+Connecting Master & worker server.
+Setup Kubernetes on Master & Worker server.
+Executing shell script on master & worker server for installing pre-requisites.
+Creating cluster and executing POD
+Complete process- long.
+
+************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
