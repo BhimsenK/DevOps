@@ -1,0 +1,67 @@
+================================================================================
+CSS 1
+================================================================================
+
+*CSS Tutorial for Beginners | Complete CSS with Project, Notes & Code : Hindi : 7:18:24 Hrs
+--------------------------------------------------------------------------------
+
+Downloading Vs Code.
+CSS basics 
+ - Selector
+ 	- heading
+ 	- Stylining : Inline, <style>tag, External Stylesheet. 
+ - Properties : 
+	- Color Property
+	- Background Color Property
+	- Color Systems
+		- RGB, Hex
+ 	- Selectors : Universal, Element, Id & Class selectors.
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+CSS 2
+================================================================================
+
+*CSS Tutorial for Beginners | Complete CSS with Project, Notes & Code : Hindi : 7:18:24 Hrs
+--------------------------------------------------------------------------------
+
+ 	- Text Properties : text-align (left/right/center)
+			    text-decoration (underline/overline/line-through)
+			    font-weight (normal/bold/bolder/llighter/100-900)
+			    font-family (arial/ roboto...)
+			    text-transform (upper, lower, capitalize, none)
+ - Units in CSS : 
+	- Absolute (pixels (px))
+
+
+LEVEL 2 : 
+
+ - Box Model in CSS : 
+	- Height, Width, Border, Padding, Margin.
+ - Display Property :
+	- inline, block, inline-block, none.
+ - Alpha Channel : 
+
+	- RGBA
+--------------------------------------------------------------------------------
+
+
+
+
+================================================================================
+CSS 3
+================================================================================
+
+*CSS Tutorial for Beginners | Complete CSS with Project, Notes & Code : Hindi : 7:18:24 Hrs
+--------------------------------------------------------------------------------
+- Practice set 4
+ - Positions : Static/ relative, absolute, fixed, sticky.
+ - Flexbox : Flex Box Layout
+           - Flex Propertiex.
+ - Practice set 6
+ - Animation Properties : name, duration, timing-function, delay, iteration-count, direction.
+
+ - Working on Amazon site and creating site.
+--------------------------------------------------------------------------------
