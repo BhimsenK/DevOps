@@ -1,0 +1,205 @@
+*Multi-stage Docker builds / Distroless images
+---------------------------------------------------
+
+Why Distroless Imges ?
+- - - 
+Imagine that you have installed the python base image in the Dockerfile. And it will create a image of size 1.01 GB. 
+But its a huge image file so instead of using 'FROM python:3.9' we can use 'FROM python:3.9-slim' and it will create the small size image i.e upto 137 Mb of size. 
+
+Now the question is, can we get it even in more smaller size ?
+Here comes the concept of 'Distroless image'.
+- - - 
+
+
+From where to get these images ?
+- - -
+Seach : "GCR Distroless" on google.  i.e GoogleContainerTools.
+These images will only contain your application and its runtime dependancies. 
+
+
+
+Note : Go to the flask app which we have cloned. And update the Dockerfile. 
+
+*Executing the same python app in less than 100 MB instead of 1.01 GB
+- - - 
+Vim Dockerfile-multi-stage
+
+	#STAGE 1   (As of now we have only created an image of 1 stage i.e number of count of 'FROM' in our Dockerfile.) i.e 6 steps & 1 stage.
+	FROM python:3.9-slim AS builder
+	WORKDIR /app
+	COPY . .
+	RUN pip install -r requirements.txt --target=/app/deps
+
+	#STAGE 2
+	FROM gcr.io/destroless/python3-debian12
+	WORKDIR /app
+	COPY --from=builder /app/deps /app/deps 
+	COPY --from=builder /app .
+
+	ENV PYTHONPATH="/app/deps"
+
+	EXPOSE 80
+	CMD ["run.py"]
+
+
+docker build -f ./Dockerfile-multi-stage -t python-app-mini .
+
+docker run -p 80:80 python-app-mini:latest
+- - - 
+
+
+
+#DockerHub
+---------------------------------------------------
+
+*Storing the image on DockerHub : push
+- - - 
+
+docker image tag python-app-mini:latest bhimsen1998/python-app-mini:latest
+docker push bhimsen1998/python-app-mini:latest
+
+*Fetching an image from DockerHub : pull
+- - - 
+docker pull mysql
+docker images
+
+
+
+---------------------------------------------------
+
+
+
+#DockerVolume
+---------------------------------------------------
+
+Why DockerVolume ?
+- - - 
+Suppose you are working in a MNC and it has launched a new offer for its users. So by hearing the offer, around 60k people has 
+registerd for the KYC and now the support team is validating the MySQL DB in which the data is being shared/ stored. 
+You somewhat thought to upgrade the current MySQL version into newer version. So what did you do, you just refer the link of new MySQL DB into the KYC form so that it could
+store in new DB and old container (DB) you deleted. 
+Now support team is saying, yesterday there were around 50k registrations and today its only 30, how ? so then you got to know that the old container (DB) which you deleted
+also deletes the data in it. 
+
+So here the concept of DockerVolume came. In which you can map the data into your system.
+- - - 
+
+
+*create-stop-remove db container and checking again the container which created earlier.
+- - - 
+docker images
+docker run -d -e MYSQL_ROOT_PASSWORD=root mysql:latest 
+docker ps
+docker exec -it {mysql container ID} bash
+(You are under the container)
+	mysql -u root -p 
+	 enter pwd > root
+	 
+	mysql > show databases;
+	mysql > create database KYC;
+	mysql > use KYC
+	mysql > exit
+	bash-5.1 > exit
+
+
+docker stop {id} && docker rm {id} 
+docker run -d -e MYSQL_ROOT_PASSWORD=root mysql:latest 
+docker exec 0t {id} bash
+(You are under the container)
+	mysql -u root -p 
+	 enter pwd > root
+
+	mysql > show databases;
+	
+Note : You can't be able to see the KYC database here.
+- - - 
+
+
+*Using volume
+- - - 
+docker volume ls
+docker volume create mysql-data
+docker volume ls
+
+docker inspect mysql-data
+	Note : you will be getting the mount path where the data is being stored locally. Go to that path with sudo permission
+sudo su
+ - cd /var/lib/docker/volumes/mysql-data/_data
+ - ls
+   NOTE : You'll be getting the empty data.
+ - exit
+ 
+ 
+
+docker ps (removing the running container if any)
+docker stop {id} && docker rm {id}
+clear
+
+docker run -d -e MYSQL_ROOT_PASSWORD=root -v mysql_data:/var/lib/mysql mysql:latest 
+docker volume ls
+docker inspect mysql_data
+sudo su
+	- ls
+	- exit
+	
+docker ps
+docker exec -it {id} bash
+(You are under the container)
+	mysql -u root -p 
+	 enter pwd > root
+	 
+	mysql > create database KYC;
+	mysql > use K;
+	mysql > create table aadhaar (id INT AUTO_INCREMENT PRIMARY KEY, message TEXT);
+	mysql > insert into aadhar (message) VALUES ("my KYCV updated");
+	mysql > select * from aadhar;
+	mysql > exit
+	
+docker ps
+docker stop {id_of_db_container} && docker rm {id_of_db_container}
+docker run -d -e MYSQL_ROOT_PASSWORD=root -v mysql_data:/var/lib/mysql mysql:latest
+docker exec -it {id} bash  
+(You are under the container)
+	mysql -u root -p 
+	 enter pwd > root
+	mysql > show databases;
+	 - note : You should be seeing the 'KYC' database now even after stopping && removing the container. 
+	> use KYC
+	> select * from aadhar
+---------------------------------------------------
+	
+	
+	
+
+
+
+	
+#DockerNetworking
+---------------------------------------------------
+
+
+
+*2-Tier-Application : Connecting a Flask app container with MySQL container.
+- - - 
+/github_repos$ git clone https://github.com/LondheShubham153/two-tier-flask-app.git
+cd two-tier-flask-app
+touch .env
+	- Copy & paste the menioned environment variables
+docker build -t flask-app .   (building a image using docker file present in the directory)
+
+
+
+docker create network twotier
+docker network ls
+docker inspect twotier
+docker run -d --name mysql -v mysql_data:/var/lib/mysql --network=twotier -e MYSQL_PASSWORD=admin -e MYSQL_USER=admin -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=tws_db -p 3306:3306 mysql:latest 
+docker ps
+docker network ls
+docker inspect twotier
+
+
+docker images
+docker run -d  -p 5000:5000 --network=twotier --ame flaskapp -e MYSQL_PASSWORD=admin -e MYSQL_USER=admin -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=tws_db  flask-app:latest   (creating container from image)
+
+- - - 
+---------------------------------------------------
