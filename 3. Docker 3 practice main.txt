@@ -1,0 +1,192 @@
+#Docker Terminologies, Writing Dockerfiles, Building Images, Running Containers
+================================================================================================================
+Docker : Making an online shopping app running on docker.
+
+*Creating an EC2 instance (Ubuntu)
+
+git clone https://github.com/LondheShubham153/online_shopping_app.git
+ls
+cd online_shopping_app/
+ls
+rm Dockerfile
+ls
+
+
+Note : To have the docker file, we should be having the Docker installed in our instance. So update the instance.
+
+sudo apt-get update
+sudo apt-get install docker.io
+sudo apt-get install docker-compose
+docker --version
+sudo systemctl docker 
+
+
+*Adding docker access to the current user group 
+docker ps
+sudo usermod -aG docker $USER
+newgrp docker   (to make changes to reflect)
+docker ps
+
+Note : 
+	- Node js App -> build tool : npm
+	- Python      -> pip
+	- Java		  -> Maven
+	
+	- Note : Go through the git hub repo and understand which app it is. hint: if you found package.json in the files then it must be Node js app.
+- - - 
+
+
+*Create Dockerfile : 
+vim Dockerfile
+
+	#getting base image
+	FROM node:18
+
+
+	#Getting base image
+
+	FROM node:18
+
+	# making a working directory for putting code and req. files
+	WORKDIR /app
+
+	# Copy everything from the source (host local repo/ cloned repo) to the container
+	COPY . .
+
+	#install packages
+	RUN npm install
+
+	# Expose the port
+	EXPOSE 5173
+	
+	#Run/ Serve the application
+	CMD ["npm", "run", "dev"]
+
+
+Note : As we created the dockerfile now we need to run the image. That we need to build the image in first.
+
+*Create image from a Dockerfile :
+docker build -t online_shop:latest .       >> ( -t {name:tag} and '.' is nothing but giving Dockerfile location and '.' means current location.)
+docker images
+
+
+*Create Container from Image : 
+docker run -d -p 5173:5173 online_shop:latest 
+docker ps
+docker logs 300    (too see where our app is running on local & network)
+
+Note : Add the port 5273 into the security inboud rules.
+	   Open browser > {instance_public_ip}:5173
+	   And your app will be running. 
+	   
+================================================================================================================	   
+	   
+	   
+	   
+
+
+
+# Data Volume : when our container got stopped/ deleted then our data should have been saved locally so.
+================================================================================================================
+docker stop {container_id}
+docker rm {container_id}
+
+
+Note : Go outside of the cloned repo and create a 'volume' folder.
+	 mkdir volume
+     cd volume/
+     mkdir online_shop
+     ls
+     cd online_shop/
+	- Now come outside of the complete folder.
+	
+	
+docker run -d -v /home/ubuntu/volume/online_shop:/logs -p 5173:5173 online_shop:latest
+docker exec -it 14 bash
+	root@14fc5787f0b6:/app# cd /logs
+	root@14fc5787f0b6:/logs# ls
+	root@14fc5787f0b6:/logs# echo "This is the log line" > app.log
+	root@14fc5787f0b6:/logs# echo "This is also a log line" >> app.log   (">>" for appending a new line or data)
+	root@14fc5787f0b6:/logs# exit 
+
+docker stop {container_id}
+docker rm {container_id}
+
+note : now go to "/home/ubuntu/volume/online_shop" this path and you can see the app.log file there. 
+================================================================================================================
+
+
+
+# Docker Network 
+================================================================================================================
+docker network ls
+docker network create my-network
+docker network ls
+docker inspect my-network
+docker run -d --network my-network -p 80:80 nginx:latest 
+docker inspect my-network  (You will see this container will be running under "my-network")
+
+* adding one more container into the same network
+docker run -d --network my-network --name shopping_app -p 5173:5173 online_shop:latest
+docker inspect my-network
+
+note : if you want to give particular name to your container then use "--name {name}" i.e 
+		- docker run -d --network my-network --name nginx -p 80:80 nginx:latest
+
+
+* Accessing 'nginx' container from 'online_shop' container
+docker exec -it {online_shop_container_id or name} bash
+	- curl http://{nginx_container_name}:80
+	
+e.g 
+ubuntu@ip-172-31-35-168:~/volume/online_shop$ docker exec -it shopping_app bash
+root@ec6136e43d63:/app# curl http://nginx:80
+
+================================================================================================================
+
+
+
+
+# Multi-stage builds
+================================================================================================================
+docker stop nginx online_shop && docker rm  nginx online_shop
+
+vim Dockerfile-multi
+
+	# Base image to build NPM ralted packages install (stage 1) (big image)
+	FROM node:18 AS builder
+
+	WORKDIR /app
+
+	COPY package*.json ./
+
+	RUN npm install
+
+	COPY . .
+
+
+
+	# Base image to run the application only (stage 2) (small image)
+	FROM node:18-slim
+
+	WORKDIR /app
+	COPY --from=builder /app .
+
+
+	EXPOSE 5173
+
+	CMD ["npm", "run", "dev"]
+
+
+docker build -t online-shop-small -f ./Dockerfile-multi .
+docker run -d -p 5173:5173 online-shop-small:latest	
+================================================================================================================
+
+
+
+
+
+# Docker Compose 
+================================================================================================================
+
+================================================================================================================
